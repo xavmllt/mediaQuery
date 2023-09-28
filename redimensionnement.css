@@ -1,0 +1,29 @@
+#conteneur{
+    border: 1px solid black;
+    text-align: center; 
+}
+
+#heade{
+    background-color: beige;
+}
+
+#cont{
+    display: flex;
+    border: 1px solid red;
+    background-color: azure;
+    /* justify-content: center; */
+    justify-content: space-around;
+} 
+
+.pp{
+    padding: 10px;
+}
+
+#foote{
+    background-color: blanchedalmond;
+}
+@media only screen and (max-width:600px){
+    #cont{
+        flex-direction: column;
+    }
+}
